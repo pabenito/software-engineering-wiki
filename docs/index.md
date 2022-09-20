@@ -1,4 +1,4 @@
-# Software Engineering Wiki
+# Software Notes
 
 Welcome to Software Engineering notes of Universidad de Málaga.
 
