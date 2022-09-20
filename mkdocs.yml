@@ -1,0 +1,12 @@
+site_name: Software Notes
+site_url: https://pabenito.github.io/software-notes.git
+site_author: Pedro Antonio Benito Rojano
+site_description: "Notes of the degree in software engineering at Universidad de Málaga"
+copyright: "This wiki is licensed under the <a href='https://mit-license.org'>MIT license</a>"
+strict: true
+theme: cinder
+markdown_extensions:
+    - smarty
+    - sane_lists
+    - toc:
+        permalink: "#"
