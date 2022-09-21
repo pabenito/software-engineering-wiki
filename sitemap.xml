@@ -6,7 +6,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://pabenito.github.io/software-notes.git/web_engineering/fundamentals/</loc>
+         <loc>https://pabenito.github.io/software-notes.git/formal_methods/1_introducction/</loc>
+         <lastmod>2022-09-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://pabenito.github.io/software-notes.git/web_engineering/1_introducction/</loc>
          <lastmod>2022-09-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
