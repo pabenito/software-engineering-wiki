@@ -8,6 +8,7 @@
 ## Acronyms
 
 - **AI**: Artificial Intelligence.
+- **CSS**: Cascading Style Sheet.
 - **DB**: Data Base.
 - **DL**: Deep Learning.
 - **DOM**: Document Object Model.
@@ -17,6 +18,7 @@
 - **PC**: Personal Computer.
 - **SPARQL**: Semantic Protocol And RDF Query Language.
 - **Web**: [World Wide Web](#the-web). 
+- **W3C**: [World Wide Web Consortium](#w3c).
 - **XHTML**: Extensible HyperText Markup Language.
 - **XML**: Extensible Markup Language.
 - **XSLT** Extensible Stylesheet Language.
@@ -29,9 +31,11 @@
 
 ## The _Web_ 
 
-The _Web_ is one service deployed over _Internet_.<br/>
-The main file in the Web is the _HTML_.<br/> 
-The _Web_ is supported by _HTTP_ over _TCP/IP_.<br/> 
+The _Web_ is one service deployed over _Internet_.
+
+- The main file in the _Web_ is the _HTML_.
+- The _Web_ is supported by _HTTP_ over _TCP/IP_.
+- The _Web_ is standardised by _W3C_ since 1994.
 
 The _Web_ has evolved from _PC Era_ to Web 4.0.
 
@@ -92,4 +96,18 @@ Distributed resources.
 - Cloud computing, portability, IoT, AI and DL.
 - New interfaces (i.e. voice interfaces). 
 
+## Web applications
 
+This has been the evolution of web applications:
+
+- **Document centric**: Static _HTML_.
+- **Interactive**: Dynamic HTML generation.
+- **Transactional**: _DB_ queries and transactions.
+- **Workflow-based**: To manage workflows across departments, organisations and companies, etc.
+- **Collaborative**: Shared projects and information.
+- **Portal-oriented (Website)**: Offers a broad array of resources and services---usually related.
+- **Ubiquitous**: Services to be accessed anywhere and anytime.
+- **Knowledge based**: Personalized based on data. 
+- **Cloud computing**: Computing and storage as a service.
+
+![Web evolution](img/web_evolution.jpg)
