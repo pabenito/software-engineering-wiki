@@ -11,7 +11,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://pabenito.github.io/software-notes.git/formal_methods/1_introducction/</loc>
+         <loc>https://pabenito.github.io/software-notes.git/formal_methods/introducction/</loc>
          <lastmod>2022-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -21,7 +21,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://pabenito.github.io/software-notes.git/web_engineering/1_introducction/</loc>
+         <loc>https://pabenito.github.io/software-notes.git/project_management/introducction/</loc>
+         <lastmod>2022-09-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://pabenito.github.io/software-notes.git/web_engineering/introducction/</loc>
          <lastmod>2022-09-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
