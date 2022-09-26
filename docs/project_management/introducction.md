@@ -2,33 +2,6 @@
 
 Project management consists of managing resources in the best possible way to chieve the company's objectives efficiently. 
 
-## Glossary
-
-### Definitions
-
--**Organization**: A group of people who work together in an organized way for a shared purpose. [Cambridge Dicctionary](https://dictionary.cambridge.org/dictionary/english/organization)
-
--**Vision**: Outlines what you want to become and how you want to impact society and its people. Future-focused. [Quick Sprout](https://www.quicksprout.com/vision-and-mission-statement)
-
--**Mision**: Primary goals, purposes, and values of an organization. Present-focused. [Quick Sprout](https://www.quicksprout.com/vision-and-mission-statement)
-
--**Resources**: Capital and workers.
-
--**Project**: A project is a temporary endeavor undertaken by a company or organization, i.e. creation of a new product or service. [Northeastern University](https://www.northeastern.edu/graduate/blog/project-management-vs-portfolio-management-vs-program-management)
-
--**Program**: A group of projects that are similar or related to one another, and which are often managed and coordinated as a group instead of independently. [Northeastern University](https://www.northeastern.edu/graduate/blog/project-management-vs-portfolio-management-vs-program-management)
-    
--**Portfolio**: A group of different programs and/or projects within the same organization, which may be related or unrelated to one another. [Northeastern University](https://www.northeastern.edu/graduate/blog/project-management-vs-portfolio-management-vs-program-management)
-
--**Internal service**: A service for _organization_'s employees.
-
--**External service**: A service for _organization_'s clients. 
-
-### Acronyms
-
--**NGO**: Non-Governmental Organization.
--**IT**: Information Technology.
-
 ## Orgatization
 
 _Organizations_ are guided by theirs _vision_ and _mission_, so they must manage their _resources_ efficiently to fulfil them. This gap (the "manage") between _vision_ and _mission_ and _resources_ is where project management comes in. 
@@ -53,7 +26,7 @@ For project management it is necessary to define an appropriate methodology. The
 
 ## _Portfolios_, _programs_ and _projects_
 
-See [glossary](#definitions).
+See [glossary](glossary.md#portfolios-programs-and-projects).
 
 The idea is to group the _resources_ of related _projects_, so that _resources_ are better utilized and easier to organize. 
 
@@ -87,14 +60,3 @@ The _IT_ department:
 - Offers _internal_ and _external services_.
 - Supports workflows.
 - Is essential to the business.
-
-
-
-
-
-
-
-
-
-
-
