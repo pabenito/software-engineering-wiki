@@ -23,7 +23,7 @@ The project **ends** when:
 
 ### Objective
 
-The _project objective_ is what the _organization_ aims to achieve with this _project. **_Deliverables_** are planned to achieve these _project objectives_. 
+The _project objective_ is what the _organization_ aims to achieve with this _project_. **_Deliverables_** are planned to achieve these _project objectives_. 
 
 Note that the _project objective_ is not to produce _deliverables_, but rather that _deliverables_ are a means to achieve _project objectives_. 
 
