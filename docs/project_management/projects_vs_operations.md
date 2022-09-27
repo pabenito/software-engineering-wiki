@@ -9,7 +9,7 @@ Questions about projects and operations:
 
 ## Project
 
-A project is a **temporary** endeavor undertaken by a company or _organization_ to achieve an **_project objective_** with an established **budget**.
+A project is a **temporary** endeavor undertaken by a company or _organization_ to achieve an **_project objective_** with an established **budget**. 
 
 ### Temporary
 
@@ -23,7 +23,11 @@ The project **ends** when:
 
 ### Objective
 
-The _project objective_ is to produce **deliverables**.
+The _project objective_ is what the _organization_ aims to achieve with this _project. **_Deliverables_** are planned to achieve these _project objectives_. 
+
+Note that the _project objective_ is not to produce _deliverables_, but rather that _deliverables_ are a means to achieve _project objectives_. 
+
+**_Deliverables_** are clasified as products, sercives or results:
 
 - **Product**: An element, physical or not-physical.
 - **Service**: Any type of service. 
@@ -33,7 +37,7 @@ There are some examples:
 
 - **Software development**: 
     - An application. (Product)
-    - Its user manual. (Result)
+    - Its user manual. (Product)
     - A training session conducted on the application. (Service)
 - **Software maintenance**: 
     - A service for handling requests for changes and error detection. (Service)
@@ -52,7 +56,7 @@ There are some examples:
     - The article with the results. (Product)
     - Documentation on the tests performed. (Result)
 
-### Misconception
+### Misconceptions
 
 _Organizations_ call many different things a _project_:
 

@@ -22,7 +22,7 @@
 
 ### Deliverables and operations
 
-- **Project objective**: To produce certains _deliverables_.
+- **Project objective**: What the _organization_ aims to achieve with this _project_. See [more](./projects_vs_operations.md#objective).
 - **Deliverable**: A product (physical or not-physical), service, or a result (knowledge). See [more](./projects_vs_operations.md#objective).
 - **Operations**: Ongoing, routine tasks that follow a company's procedures. [Indeed](https://www.indeed.com/career-advice/career-development/project-vs-operations) (source). See [more](./projects_vs_operations.md#operations).
 
