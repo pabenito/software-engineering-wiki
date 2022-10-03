@@ -8,7 +8,7 @@ But which methodology do we choose?
 
 The main project management metodologies, oriented to processes, and which also have certification are the following:
 
-- [**_PMBOK_**](https://en.wikipedia.org/wiki/Project_Management_Body_of_Knowledge): The most widespread and prestigious. 
+- [**PMBOK**](https://en.wikipedia.org/wiki/Project_Management_Body_of_Knowledge): The most widespread and prestigious. 
 - [PRINCE 2](https://en.wikipedia.org/wiki/PRINCE2): Mainly in Europe.
 - [ISO 21500](https://en.wikipedia.org/wiki/ISO_21500): High similarity with _PMBOK_.
 - [_CMMI_](https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration): Broader scope than project management.
