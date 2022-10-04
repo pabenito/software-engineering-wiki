@@ -1,28 +1,5 @@
 # Introducction 
 
-## Glossary
-
-- **Internet**: Computers net supported by TCP/IP protocol.
-- **PC Era**: Before the _Web_. 
-
-## Acronyms
-
-- **AI**: Artificial Intelligence.
-- **CSS**: Cascading Style Sheet.
-- **DB**: Data Base.
-- **DL**: Deep Learning.
-- **DOM**: Document Object Model.
-- **HTML**: HyperText Markup Language.
-- **IoT**: Internet of Things.
-- **OWL**: Web Ontology Language.
-- **PC**: Personal Computer.
-- **SPARQL**: Semantic Protocol And RDF Query Language.
-- **Web**: [World Wide Web](#the-web). 
-- **W3C**: [World Wide Web Consortium](#w3c).
-- **XHTML**: Extensible HyperText Markup Language.
-- **XML**: Extensible Markup Language.
-- **XSLT** Extensible Stylesheet Language.
-
 ### Protocols 
 
 - **IP**: Internet Protocol. (Internet layer)
