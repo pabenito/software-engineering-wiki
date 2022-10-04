@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Notes of the degree in software engineering at Universidad de Málaga">
     <meta name="author" content="Pedro Antonio Benito Rojano">
-    <link rel="canonical" href="https://pabenito.github.io/software-notes.git/web_engineering/introducction/">
+    <link rel="canonical" href="https://pabenito.github.io/software-notes.git/web_engineering/software_architecture/">
     <link rel="shortcut icon" href="../../img/favicon.ico">
 
     
-    <title>Introducction - Software Notes</title>
+    <title>Software architecture - Software Notes</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -170,14 +170,14 @@
 
                         
                             
-<li class="active">
-    <a href="./">Introducction</a>
+<li >
+    <a href="../introducction/">Introducction</a>
 </li>
 
                         
                             
-<li >
-    <a href="../software_architecture/">Software architecture</a>
+<li class="active">
+    <a href="./">Software architecture</a>
 </li>
 
                         
@@ -200,12 +200,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../glossary/">
+                        <a rel="prev" href="../introducction/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../software_architecture/">
+                        <a rel="next" href="../web_modeling/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -219,99 +219,149 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#introducction">Introducction</a></li>
-            <li class="second-level"><a href="#protocols">Protocols</a></li>
+        <li class="first-level active"><a href="#software-architecture">Software architecture</a></li>
+            <li class="second-level"><a href="#what-is-software-architecture">What is software architecture?</a></li>
                 
-            <li class="second-level"><a href="#the-web">The Web</a></li>
+                <li class="third-level"><a href="#architecture-model">Architecture model</a></li>
+            <li class="second-level"><a href="#architectural-points-of-view">Architectural points of view</a></li>
                 
-                <li class="third-level"><a href="#web-10">Web 1.0</a></li>
-                <li class="third-level"><a href="#web-20">Web 2.0</a></li>
-                <li class="third-level"><a href="#web-30">Web 3.0</a></li>
-                <li class="third-level"><a href="#web-40">Web 4.0</a></li>
-            <li class="second-level"><a href="#web-applications">Web applications</a></li>
+                <li class="third-level"><a href="#physical-architecture">Physical architecture</a></li>
+                <li class="third-level"><a href="#logical-architecture">Logical architecture</a></li>
+                <li class="third-level"><a href="#mixed-architecture">Mixed architecture</a></li>
+            <li class="second-level"><a href="#architecture-layers">Architecture layers</a></li>
                 
+                <li class="third-level"><a href="#presentation-layer">Presentation layer</a></li>
+                <li class="third-level"><a href="#business-layer">Business layer</a></li>
+                <li class="third-level"><a href="#data-layer">Data layer</a></li>
+                <li class="third-level"><a href="#service-layer">Service layer</a></li>
+            <li class="second-level"><a href="#architecture-scalability">Architecture scalability</a></li>
+                
+                <li class="third-level"><a href="#vertical-scaling">Vertical scaling</a></li>
+                <li class="third-level"><a href="#horizontal-scaling">Horizontal scaling</a></li>
+            <li class="second-level"><a href="#architecture-patterns">Architecture patterns</a></li>
+                
+            <li class="second-level"><a href="#architectural-modeling-in-uml">Architectural modeling in UML</a></li>
+                
+                <li class="third-level"><a href="#components-diagram">Components diagram</a></li>
+                <li class="third-level"><a href="#deployment-diagram">Deployment diagram</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="introducction">Introducction<a class="headerlink" href="#introducction" title="Permanent link">#</a></h1>
-<h3 id="protocols">Protocols<a class="headerlink" href="#protocols" title="Permanent link">#</a></h3>
+<h1 id="software-architecture">Software architecture<a class="headerlink" href="#software-architecture" title="Permanent link">#</a></h1>
+<h2 id="what-is-software-architecture">What is software architecture?<a class="headerlink" href="#what-is-software-architecture" title="Permanent link">#</a></h2>
+<p>Software architecture refers to the <strong>fundamental structures of a software system</strong> and the discipline of creating such structures and systems. Each structure comprises software elements, relations among them, and properties of both elements and relations.</p>
+<p>Software architecture is usually <strong>represented as with a <em>model</em></strong>.</p>
+<h3 id="architecture-model">Architecture <em>model</em><a class="headerlink" href="#architecture-model" title="Permanent link">#</a></h3>
+<p>Architecture <em>modeling</em> have the following characteristics:</p>
 <ul>
-<li><strong>IP</strong>: Internet Protocol. (Internet layer)</li>
-<li><strong>TCP</strong>: Transmission Control Protocol. (Transport layer)</li>
-<li><strong>HTTP</strong>: Hypertext Transfer Protocol. (Application layer)</li>
+<li>It represents a set of <strong>structures necessary to reason</strong> about such a system.</li>
+<li>It is an <strong>abstraction</strong> that dispenses with details.</li>
 </ul>
-<h2 id="the-web">The <em>Web</em><a class="headerlink" href="#the-web" title="Permanent link">#</a></h2>
-<p>The <em>Web</em> is one service deployed over <em>Internet</em>.</p>
+<h2 id="architectural-points-of-view">Architectural points of view<a class="headerlink" href="#architectural-points-of-view" title="Permanent link">#</a></h2>
+<p>Architecture can be defined from physical or logical point of view. </p>
+<h3 id="physical-architecture">Physical architecture<a class="headerlink" href="#physical-architecture" title="Permanent link">#</a></h3>
+<p>Physical elements for software execution:</p>
 <ul>
-<li>The main file in the <em>Web</em> is the <em>HTML</em>.</li>
-<li>The <em>Web</em> is supported by <em>HTTP</em> over <em>TCP/IP</em>.</li>
-<li>The <em>Web</em> is standardised by <em>W3C</em> since 1994.</li>
+<li>Hardware</li>
+<li>Third party software</li>
+<li>Other elements external to the application</li>
 </ul>
-<p>The <em>Web</em> has evolved from <em>PC Era</em> to Web 4.0.</p>
-<h3 id="web-10">Web 1.0<a class="headerlink" href="#web-10" title="Permanent link">#</a></h3>
-<p>Started in 1991. </p>
-<p>People connecting to servers.</p>
+<h3 id="logical-architecture">Logical architecture<a class="headerlink" href="#logical-architecture" title="Permanent link">#</a></h3>
+<p>Software components. Group the different functionalities.</p>
 <ul>
-<li>Static webs.</li>
-<li>Few content producers / Many readers.</li>
-<li>Rreduced interaction.</li>
+<li>It deals with the <strong>public part</strong> of the elements of the system.</li>
+<li><strong>Describes</strong> the software <strong>components</strong>, the <strong>relationships</strong> between them and their <strong>properties</strong></li>
+<li><strong>Ignores</strong> the internal <strong>implementation</strong> of the components</li>
 </ul>
-<h4 id="tecnologies">Tecnologies:<a class="headerlink" href="#tecnologies" title="Permanent link">#</a></h4>
+<h3 id="mixed-architecture">Mixed architecture<a class="headerlink" href="#mixed-architecture" title="Permanent link">#</a></h3>
+<p>It is also usual to represents both together: physical as tiers, logical as layers.</p>
+<p><img alt="Mixed architecture" src="../img/mixed_architecture.jpg" /></p>
+<h2 id="architecture-layers">Architecture layers<a class="headerlink" href="#architecture-layers" title="Permanent link">#</a></h2>
+<p>Each architecture layer, has a specific purpose. </p>
+<h3 id="presentation-layer">Presentation layer<a class="headerlink" href="#presentation-layer" title="Permanent link">#</a></h3>
 <ul>
-<li><em>HTTP</em> as application protocol. </li>
-<li><em>HTML</em> as information document.</li>
+<li>Displays the user interface</li>
+<li>Facilitates user interaction with the system</li>
+<li>Server-side contains a component that generates and serves the <em>HTML</em>.</li>
+<li>Client-side contains a browser that displays <em>HTML</em> and executes scripts.</li>
+<li>Computational load:<ul>
+<li>Traditionally the presentation logic was server-side.</li>
+<li>Technologies such as <em>AJAX</em> allow logic to be executed on the client-side.</li>
 </ul>
-<h3 id="web-20">Web 2.0<a class="headerlink" href="#web-20" title="Permanent link">#</a></h3>
-<p>Started in 2004. </p>
-<p>People connecting to people.</p>
+</li>
+</ul>
+<h3 id="business-layer">Business layer<a class="headerlink" href="#business-layer" title="Permanent link">#</a></h3>
 <ul>
-<li>Blogs and social networks began.</li>
-<li>Sharing contents.</li>
-<li>Communities.</li>
+<li>Includes business logic</li>
+<li>Allows reuse of business logic functions</li>
+<li>Enables improved maintenance and testing</li>
 </ul>
-<h4 id="tecnologies_1">Tecnologies<a class="headerlink" href="#tecnologies_1" title="Permanent link">#</a></h4>
+<h3 id="data-layer">Data layer<a class="headerlink" href="#data-layer" title="Permanent link">#</a></h3>
+<p>Abstracts the logic needed to access the <em>DB</em>.</p>
+<h3 id="service-layer">Service layer<a class="headerlink" href="#service-layer" title="Permanent link">#</a></h3>
 <ul>
-<li><em>XHTML</em> and <em>CSS</em> to data presentation.</li>
-<li><em>DOM</em> for interactivity.</li>
-<li><em>XML</em> and <em>XSLT</em> for information sharing.</li>
-<li>JavaScript and Ajax.</li>
+<li>Encapsulates access to external services residing on a remote machine</li>
+<li>The system itself can be offered as web services.</li>
 </ul>
-<h3 id="web-30">Web 3.0<a class="headerlink" href="#web-30" title="Permanent link">#</a></h3>
-<p>Started in 2010.</p>
-<p>Semantic web. </p>
+<h2 id="architecture-scalability">Architecture scalability<a class="headerlink" href="#architecture-scalability" title="Permanent link">#</a></h2>
+<p>Scalability is how increased data usage and data growth affects <em>performance</em>.</p>
+<p>It is important: </p>
 <ul>
-<li>Software capable of process, reason and logic deduction.  </li>
-<li>Well-labeled information. </li>
+<li>The correct dimensioning of the application</li>
+<li>The adaptability of the system to increased demand.</li>
 </ul>
-<h4 id="tecnologies_2">Tecnologies<a class="headerlink" href="#tecnologies_2" title="Permanent link">#</a></h4>
+<p>There are two ways of scaling a system: vertical or horizontal scaling.  </p>
+<h3 id="vertical-scaling">Vertical scaling<a class="headerlink" href="#vertical-scaling" title="Permanent link">#</a></h3>
+<p>Adding more power to the machine hosting the system</p>
 <ul>
-<li>OWL-S for ontology.</li>
-<li>SPARQL for DB queries.</li>
+<li>Faster <em>CPU</em></li>
+<li>More <em>RAM</em></li>
+<li><em>SSD</em> disks</li>
 </ul>
-<h3 id="web-40">Web 4.0<a class="headerlink" href="#web-40" title="Permanent link">#</a></h3>
-<p>Started in 2020.</p>
-<p>Distributed resources.</p>
+<h3 id="horizontal-scaling">Horizontal scaling<a class="headerlink" href="#horizontal-scaling" title="Permanent link">#</a></h3>
+<p>Creating system clones and load balancing. Balancing can be done by hardware or software. </p>
+<h4 id="hardware-balancing">Hardware balancing<a class="headerlink" href="#hardware-balancing" title="Permanent link">#</a></h4>
+<p>Different requests from the same user can be handled by different clones.</p>
+<p>Based on routing, tunneling or IP translation.</p>
+<h4 id="software-balancing">Software balancing<a class="headerlink" href="#software-balancing" title="Permanent link">#</a></h4>
+<p>All requests from a user are served by the same clone.</p>
+<p>Done by inspecting <em>HTTP</em> packets to maintain the user session in the same machine. </p>
+<h2 id="architecture-patterns">Architecture patterns<a class="headerlink" href="#architecture-patterns" title="Permanent link">#</a></h2>
+<p>They describe a general solution to a design problem that is frequently encountered.</p>
 <ul>
-<li>Configurable services.</li>
-<li>Massively scalable services. </li>
-<li>Cloud computing, portability, IoT, AI and DL.</li>
-<li>New interfaces (i.e. voice interfaces). </li>
+<li>Are general organization schemes of a system</li>
+<li>Specify a series of subsystems or components and their responsibilities </li>
+<li>Define rules for organizing the interactions between them</li>
 </ul>
-<h2 id="web-applications">Web applications<a class="headerlink" href="#web-applications" title="Permanent link">#</a></h2>
-<p>This has been the evolution of web applications:</p>
+<p>More about architecture patterns <a href="https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013">here</a>.</p>
+<h2 id="architectural-modeling-in-uml">Architectural modeling in UML<a class="headerlink" href="#architectural-modeling-in-uml" title="Permanent link">#</a></h2>
+<h3 id="components-diagram">Components diagram<a class="headerlink" href="#components-diagram" title="Permanent link">#</a></h3>
+<p>A component diagram is composed of software components.</p>
+<p>A software component is a composition unit with all its interfaces and context dependencies explicitly defined.</p>
+<h4 id="components-properties">Components properties<a class="headerlink" href="#components-properties" title="Permanent link">#</a></h4>
 <ul>
-<li><strong>Document centric</strong>: Static <em>HTML</em>.</li>
-<li><strong>Interactive</strong>: Dynamic HTML generation.</li>
-<li><strong>Transactional</strong>: <em>DB</em> queries and transactions.</li>
-<li><strong>Workflow-based</strong>: To manage workflows across departments, organisations and companies, etc.</li>
-<li><strong>Collaborative</strong>: Shared projects and information.</li>
-<li><strong>Portal-oriented (Website)</strong>: Offers a broad array of resources and services&mdash;usually related.</li>
-<li><strong>Ubiquitous</strong>: Services to be accessed anywhere and anytime.</li>
-<li><strong>Knowledge based</strong>: Personalized based on data. </li>
-<li><strong>Cloud computing</strong>: Computing and storage as a service.</li>
+<li><strong>Ports</strong>: Connection points between your internal structure and your environment.</li>
+<li><strong>Interfaces</strong>: Services offered and required to compose it with others.</li>
+<li><strong>Realizations</strong>: The classes that implement it.</li>
+<li><strong>Artifacts</strong>: The physical files that enable its deployment.<ul>
+<li>Source files</li>
+<li>Scripts</li>
+<li>Executables</li>
 </ul>
-<p><img alt="Web evolution" src="../img/web_evolution.jpg" /></p></div>
+</li>
+</ul>
+<h3 id="deployment-diagram">Deployment diagram<a class="headerlink" href="#deployment-diagram" title="Permanent link">#</a></h3>
+<p>Shows the communication topology of a distributed system.</p>
+<ul>
+<li>They represent the nodes or devices of the system</li>
+<li>The connections between the nodes</li>
+<li>The assignment of artifacts and software components to each node</li>
+</ul>
+<p>It is the highest level diagram in <em>UML</em>.</p>
+<p><img alt="Deployment diagram" src="../img/deployment_diagram.jpg" /></p>
+<p>The use of visual stereotypes allows a particularized representation of the deployment diagram.</p>
+<p><img alt="Itranet" src="../img/intranet_deployment_diagram.jpg" /></p></div>
         
         
     </div>
