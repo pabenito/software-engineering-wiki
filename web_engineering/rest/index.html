@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Notes of the degree in software engineering at Universidad de Málaga">
     <meta name="author" content="Pedro Antonio Benito Rojano">
-    <link rel="canonical" href="https://pabenito.github.io/software-notes.git/project_management/glossary/">
+    <link rel="canonical" href="https://pabenito.github.io/software-notes.git/web_engineering/rest/">
     <link rel="shortcut icon" href="../../img/favicon.ico">
 
     
-    <title>Glossary - Software Notes</title>
+    <title>REST - Software Notes</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -120,19 +120,52 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Project management <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
-<li class="active">
-    <a href="./">Glossary</a>
+<li >
+    <a href="../../project_management/glossary/">Glossary</a>
 </li>
 
                         
                             
 <li >
-    <a href="../good_practices/">Good practices</a>
+    <a href="../../project_management/good_practices/">Good practices</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../project_management/introducction/">Introducction</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../project_management/metodology/">Metodology</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../project_management/projects_vs_operations/">Projects vs operations</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Web engineering <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../glossary/">Glossary</a>
 </li>
 
                         
@@ -143,59 +176,26 @@
 
                         
                             
-<li >
-    <a href="../metodology/">Metodology</a>
+<li class="active">
+    <a href="./">REST</a>
 </li>
 
                         
                             
 <li >
-    <a href="../projects_vs_operations/">Projects vs operations</a>
-</li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Web engineering <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../web_engineering/glossary/">Glossary</a>
+    <a href="../software_architecture/">Software architecture</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../web_engineering/introducction/">Introducction</a>
+    <a href="../web_modeling/">Web modeling</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../web_engineering/rest/">REST</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../web_engineering/software_architecture/">Software architecture</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../web_engineering/web_modeling/">Web modeling</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../web_engineering/web_services/">Web services</a>
+    <a href="../web_services/">Web services</a>
 </li>
 
                         
@@ -212,12 +212,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../../mobile_development/introducction/">
+                        <a rel="prev" href="../introducction/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../good_practices/">
+                        <a rel="next" href="../software_architecture/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -231,68 +231,91 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#glossary">Glossary</a></li>
-            <li class="second-level"><a href="#definitions">Definitions</a></li>
+        <li class="first-level active"><a href="#rest">REST</a></li>
+            <li class="second-level"><a href="#concepts">Concepts</a></li>
                 
-                <li class="third-level"><a href="#organization">Organization</a></li>
-                <li class="third-level"><a href="#portfolios-programs-and-projects">Portfolios, programs and projects</a></li>
-                <li class="third-level"><a href="#deliverables-and-operations">Deliverables and operations</a></li>
-                <li class="third-level"><a href="#services">Services</a></li>
-            <li class="second-level"><a href="#acronyms">Acronyms</a></li>
+                <li class="third-level"><a href="#resources">Resources</a></li>
+                <li class="third-level"><a href="#representations">Representations</a></li>
+                <li class="third-level"><a href="#uri">URI</a></li>
+            <li class="second-level"><a href="#principles">Principles</a></li>
                 
+                <li class="third-level"><a href="#stateless">Stateless</a></li>
+                <li class="third-level"><a href="#client-server">Client-server</a></li>
+                <li class="third-level"><a href="#uniform-interface">Uniform interface</a></li>
+                <li class="third-level"><a href="#cacheable">Cacheable</a></li>
+                <li class="third-level"><a href="#layered-systems">Layered systems</a></li>
+                <li class="third-level"><a href="#code-on-demand">Code on demand</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="glossary">Glossary<a class="headerlink" href="#glossary" title="Permanent link">#</a></h1>
-<h2 id="definitions">Definitions<a class="headerlink" href="#definitions" title="Permanent link">#</a></h2>
-<h3 id="organization">Organization<a class="headerlink" href="#organization" title="Permanent link">#</a></h3>
+<h1 id="rest">REST<a class="headerlink" href="#rest" title="Permanent link">#</a></h1>
+<p><em>REST</em> (REpresentational State Transfer) is an <strong>architectural style</strong> for <strong><em>distributed systems</em></strong> based on <strong>hypermedia</strong> like <em>The Web</em>. <em>REST</em> is based on <strong>resources and representations</strong>. </p>
+<h2 id="concepts">Concepts<a class="headerlink" href="#concepts" title="Permanent link">#</a></h2>
+<h3 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h3>
+<p><em>REST</em> resources <strong>have</strong>:</p>
 <ul>
-<li>
-<p><strong>Organization</strong>: A group of people who work together in an organized way for a shared purpose. <a href="https://dictionary.cambridge.org/dictionary/english/organization">Cambridge Dicctionary</a></p>
-</li>
-<li>
-<p><strong>Vision</strong>: Outlines what you want to become and how you want to impact society and its people. Future-focused. <a href="https://www.quicksprout.com/vision-and-mission-statement">Quick Sprout</a></p>
-</li>
-<li>
-<p><strong>Mision</strong>: Primary goals, purposes, and values of an organization. Present-focused. <a href="https://www.quicksprout.com/vision-and-mission-statement">Quick Sprout</a></p>
-</li>
-<li>
-<p><strong>Resources</strong>: Capital and workers.</p>
-</li>
+<li>An <strong><em>URI</em></strong></li>
+<li><strong>Hyperlinks</strong> to them </li>
+<li>A <strong>state</strong> </li>
+<li><strong>Representation</strong>: txt, html, json, xml, etc. </li>
 </ul>
-<h3 id="portfolios-programs-and-projects">Portfolios, programs and projects<a class="headerlink" href="#portfolios-programs-and-projects" title="Permanent link">#</a></h3>
+<h3 id="representations">Representations<a class="headerlink" href="#representations" title="Permanent link">#</a></h3>
 <ul>
-<li>
-<p><strong>Project</strong>: A project is a temporary endeavor undertaken by a company or <em>organization</em> to achieve an <em>project objective</em> with an established budget. <a href="https://www.northeastern.edu/graduate/blog/project-management-vs-portfolio-management-vs-program-management">Northeastern University</a> extended. </p>
-</li>
-<li>
-<p><strong>Program</strong>: A group of projects that are similar or related to one another, and which are often managed and coordinated as a group instead of independently. <a href="https://www.northeastern.edu/graduate/blog/project-management-vs-portfolio-management-vs-program-management">Northeastern University</a></p>
-</li>
-<li>
-<p><strong>Portfolio</strong>: A group of different programs and/or projects within the same organization, which may be related or unrelated to one another. <a href="https://www.northeastern.edu/graduate/blog/project-management-vs-portfolio-management-vs-program-management">Northeastern University</a></p>
-</li>
+<li>Resources are not their representations, i.e. Users stored in a <em>DB</em> (the resource) can be represented in txt, html, json, xml, etc.</li>
+<li>A representation represents the resource state. </li>
+<li>Many representations can be acceded with the same <em>URI</em>.</li>
 </ul>
-<h3 id="deliverables-and-operations">Deliverables and operations<a class="headerlink" href="#deliverables-and-operations" title="Permanent link">#</a></h3>
+<h3 id="uri"><em>URI</em><a class="headerlink" href="#uri" title="Permanent link">#</a></h3>
+<p>An <em>URI</em> (Uniform Resource Identifier) unequivocally identify a resource.</p>
+<h4 id="syntax">Syntax<a class="headerlink" href="#syntax" title="Permanent link">#</a></h4>
+<h5 id="uri-syntax">URI syntax<a class="headerlink" href="#uri-syntax" title="Permanent link">#</a></h5>
+<p><strong><em>URI</em></strong> = scheme &ldquo;:&rdquo; [&ldquo;//&rdquo; authority] path [&ldquo;?&rdquo; query] [&ldquo;#&rdquo; fragment]</p>
+<p>where authority syntax is the following.</p>
+<h5 id="authority-syntax">Authority syntax<a class="headerlink" href="#authority-syntax" title="Permanent link">#</a></h5>
+<p><strong><em>authority</em></strong> = [userinfo &ldquo;@&rdquo;] host [&ldquo;:&rdquo; port]</p>
+<h4 id="example">Example<a class="headerlink" href="#example" title="Permanent link">#</a></h4>
+<p>There is an <strong>example</strong> from <a href="https://en.wikipedia.org/wiki/Uniform_Resource_Identifier">wikipedia</a>:</p>
+<p><img alt="URI" src="../img/uri.jpg" /></p>
+<p>Indeed the wikipedia link is an <em>URI</em> and also this website.</p>
+<h2 id="principles">Principles<a class="headerlink" href="#principles" title="Permanent link">#</a></h2>
+<p>The <em>REST</em> Principles are: </p>
 <ul>
-<li><strong>Project objective</strong>: What the <em>organization</em> aims to achieve with this <em>project</em>. See <a href="../projects_vs_operations/#objective">more</a>.</li>
-<li><strong>Deliverable</strong>: A product (physical or not-physical), service, or a result (knowledge). See <a href="../projects_vs_operations/#objective">more</a>.</li>
-<li><strong>Operations</strong>: Ongoing, routine tasks that follow a company&rsquo;s procedures. <a href="https://www.indeed.com/career-advice/career-development/project-vs-operations">Indeed</a> (source). See <a href="../projects_vs_operations/#operations">more</a>.</li>
+<li>Stateless </li>
+<li>Client-server </li>
+<li>Uniform interface </li>
+<li>Cacheable </li>
+<li>Layered system </li>
+<li>Code on demand </li>
 </ul>
-<h3 id="services">Services<a class="headerlink" href="#services" title="Permanent link">#</a></h3>
+<p>Principles from <a href="https://rapidapi.com/guides/rest-api-principles">RapidApi</a>.</p>
+<h3 id="stateless">Stateless<a class="headerlink" href="#stateless" title="Permanent link">#</a></h3>
+<p>An <em>HTTP</em> request will contain all the necessary information to make the server understand the request.</p>
+<p>That information is in the <em>URI</em>, their parameters, the <em>HTTP</em> header and body. </p>
+<h3 id="client-server">Client-server<a class="headerlink" href="#client-server" title="Permanent link">#</a></h3>
+<p>Both the client and the server are completely autonomous in every way. Their communication will only happen using the <em>REST</em> <em>API</em>. </p>
+<p>This improves the portability of the codebase across multiple platforms and also helps with making the server scalable.</p>
+<h3 id="uniform-interface">Uniform interface<a class="headerlink" href="#uniform-interface" title="Permanent link">#</a></h3>
+<p>Provides four interfaces to achieve uniformity:</p>
 <ul>
-<li>
-<p><strong>Internal service</strong>: A service for <em>organization</em>&lsquo;s employees.</p>
-</li>
-<li>
-<p><strong>External service</strong>: A service for <em>organization</em>&lsquo;s clients. </p>
-</li>
+<li>Resource identification by <em>URI</em></li>
+<li>Resource manipulation using representations</li>
+<li>Self-descriptive messages</li>
+<li>Hypermedia as the engine of application state</li>
 </ul>
-<h2 id="acronyms">Acronyms<a class="headerlink" href="#acronyms" title="Permanent link">#</a></h2>
+<h3 id="cacheable">Cacheable<a class="headerlink" href="#cacheable" title="Permanent link">#</a></h3>
+<p>If a response is set as cacheable, both client and server can save a copy in chache.</p>
+<p>This improve the performance:</p>
 <ul>
-<li><strong>NGO</strong>: Non-Governmental Organization.</li>
-<li><strong>IT</strong>: Information Technology.</li>
-</ul></div>
+<li>When the server does the cache, it reduces the server load and decrease the reponse time.</li>
+<li>When the client does the cache, is not needed to send the request. </li>
+</ul>
+<h3 id="layered-systems">Layered systems<a class="headerlink" href="#layered-systems" title="Permanent link">#</a></h3>
+<p>Relies on layered system architecture. So the client can not know at any time whether it is connected to the final server or to an intermediate one.</p>
+<p>This helps with improving security as components in each layer cannot interact beyond the next immediate layer they are in.</p>
+<h3 id="code-on-demand">Code on demand<a class="headerlink" href="#code-on-demand" title="Permanent link">#</a></h3>
+<p>It allows a client code to be downloaded and to be used within the application.</p>
+<p>This is not a required constraint. </p></div>
         
         
     </div>
