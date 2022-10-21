@@ -287,64 +287,64 @@
 <li><strong>Client-side</strong> contains a browser that <strong>displays <em>HTML</em></strong> and executes scripts.</li>
 <li>Computational load:<ul>
 <li>Traditionally the presentation <strong>logic was server-side</strong>.</li>
-<li>Technologies such as <em>AJAX</em> allow logic to be executed on the client-side.</li>
+<li><strong>Technologies</strong> such as <em>AJAX</em> <strong>allow</strong> logic to be executed on the <strong>client-side</strong>.</li>
 </ul>
 </li>
 </ul>
 <h3 id="business-layer">Business layer<a class="headerlink" href="#business-layer" title="Permanent link">#</a></h3>
 <ul>
-<li>Includes business logic</li>
-<li>Allows reuse of business logic functions</li>
-<li>Enables improved maintenance and testing</li>
+<li>Includes <strong>business logic</strong></li>
+<li>Allows <strong>reuse</strong> of business logic <strong>functions</strong></li>
+<li>Enables improved <strong>maintenance and testing</strong></li>
 </ul>
 <h3 id="data-layer">Data layer<a class="headerlink" href="#data-layer" title="Permanent link">#</a></h3>
-<p>Abstracts the logic needed to access the <em>DB</em>.</p>
+<p><strong>Abstracts</strong> the logic needed to <strong>access the <em>DB</em></strong>.</p>
 <h3 id="service-layer">Service layer<a class="headerlink" href="#service-layer" title="Permanent link">#</a></h3>
 <ul>
-<li>Encapsulates access to external services residing on a remote machine</li>
-<li>The system itself can be offered as web services.</li>
+<li><strong>Encapsulates</strong> access to <strong>external services</strong> residing on a remote machine</li>
+<li>The <strong>system itself</strong> can be offered <strong>as web services</strong>.</li>
 </ul>
 <h2 id="architecture-scalability">Architecture scalability<a class="headerlink" href="#architecture-scalability" title="Permanent link">#</a></h2>
-<p>Scalability is how increased data usage and data growth affects <em>performance</em>.</p>
+<p>Scalability is how increased data usage and data <strong>growth affects <em>performance</em></strong>.</p>
 <p>It is important: </p>
 <ul>
-<li>The correct dimensioning of the application</li>
-<li>The adaptability of the system to increased demand.</li>
+<li>The correct <strong>dimensioning</strong> of the application</li>
+<li>The <strong>adaptability</strong> of the system to increased demand.</li>
 </ul>
-<p>There are two ways of scaling a system: vertical or horizontal scaling.  </p>
+<p>There are two ways of scaling a system: <strong>vertical</strong> or <strong>horizontal</strong> scaling.  </p>
 <h3 id="vertical-scaling">Vertical scaling<a class="headerlink" href="#vertical-scaling" title="Permanent link">#</a></h3>
-<p>Adding more power to the machine hosting the system</p>
+<p>Adding <strong>more power</strong> to the <strong>machine hosting</strong> the system</p>
 <ul>
 <li>Faster <em>CPU</em></li>
 <li>More <em>RAM</em></li>
 <li><em>SSD</em> disks</li>
 </ul>
 <h3 id="horizontal-scaling">Horizontal scaling<a class="headerlink" href="#horizontal-scaling" title="Permanent link">#</a></h3>
-<p>Creating system clones and load balancing. Balancing can be done by hardware or software. </p>
+<p>Creating <strong>system clones</strong> and <strong>load balancing</strong>. Balancing can be done by <strong>hardware or software</strong>. </p>
 <h4 id="hardware-balancing">Hardware balancing<a class="headerlink" href="#hardware-balancing" title="Permanent link">#</a></h4>
-<p>Different requests from the same user can be handled by different clones.</p>
+<p><strong>Different requests</strong> from the <strong>same user</strong> can be handled by <strong>different clones</strong>.</p>
 <p>Based on routing, tunneling or IP translation.</p>
 <h4 id="software-balancing">Software balancing<a class="headerlink" href="#software-balancing" title="Permanent link">#</a></h4>
-<p>All requests from a user are served by the same clone.</p>
-<p>Done by inspecting <em>HTTP</em> packets to maintain the user session in the same machine. </p>
+<p><strong>All requests</strong> from a <strong>user</strong> are served by the <strong>same clone</strong>.</p>
+<p>Done by <strong>inspecting <em>HTTP</em> packets</strong> to maintain the user session in the same machine. </p>
 <h2 id="architecture-patterns">Architecture patterns<a class="headerlink" href="#architecture-patterns" title="Permanent link">#</a></h2>
-<p>They describe a general solution to a design problem that is frequently encountered.</p>
+<p>They describe a <strong>general solution</strong> to a <strong>design problem</strong> that is <strong>frequently encountered</strong>.</p>
 <ul>
-<li>Are general organization schemes of a system</li>
-<li>Specify a series of subsystems or components and their responsibilities </li>
-<li>Define rules for organizing the interactions between them</li>
+<li>Are general <strong>organization schemes</strong> of a system</li>
+<li>Specify a series of <strong>subsystems or components</strong> and their <strong>responsibilities</strong> </li>
+<li>Define <strong>rules</strong> for organizing the <strong>interactions</strong> between them</li>
 </ul>
 <p>More about architecture patterns <a href="https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013">here</a>.</p>
 <h2 id="architectural-modeling-in-uml">Architectural modeling in <em>UML</em><a class="headerlink" href="#architectural-modeling-in-uml" title="Permanent link">#</a></h2>
 <h3 id="components-diagram">Components diagram<a class="headerlink" href="#components-diagram" title="Permanent link">#</a></h3>
-<p>A component diagram is composed of software components.</p>
-<p>A software component is a composition unit with all its interfaces and context dependencies explicitly defined.</p>
+<p>A component <strong>diagram</strong> is <strong>composed</strong> of software <strong>components</strong>.</p>
+<p>A software component is a <strong>composition unit</strong> with <strong>all</strong> its <strong>interfaces</strong> and context <strong>dependencies</strong> explicitly <strong>defined</strong>.</p>
 <h4 id="components-properties">Components properties<a class="headerlink" href="#components-properties" title="Permanent link">#</a></h4>
 <ul>
-<li><strong>Ports</strong>: Connection points between your internal structure and your environment.</li>
-<li><strong>Interfaces</strong>: Services offered and required to compose it with others.</li>
-<li><strong>Realizations</strong>: The classes that implement it.</li>
-<li><strong>Artifacts</strong>: The physical files that enable its deployment.<ul>
+<li><strong>Ports</strong>: <strong>Connection points</strong> between your internal structure and your environment.</li>
+<li><strong>Interfaces</strong>: <strong>Services offered and required</strong> to compose it with others.</li>
+<li><strong>Realizations</strong>: The classes that <strong>implement</strong> it.</li>
+<li><strong>Artifacts</strong>: The <strong>physical files</strong> that enable its deployment.<ul>
 <li>Source files</li>
 <li>Scripts</li>
 <li>Executables</li>
@@ -352,15 +352,15 @@
 </li>
 </ul>
 <h3 id="deployment-diagram">Deployment diagram<a class="headerlink" href="#deployment-diagram" title="Permanent link">#</a></h3>
-<p>Shows the communication topology of a distributed system.</p>
+<p>Shows the <strong>communication topology</strong> of a distributed system.</p>
 <ul>
-<li>They represent the nodes or devices of the system</li>
-<li>The connections between the nodes</li>
-<li>The assignment of artifacts and software components to each node</li>
+<li>They represent the <strong>nodes or devices</strong> of the system</li>
+<li>The <strong>connections</strong> between the nodes</li>
+<li>The <strong>assignment</strong> of artifacts and software components <strong>to each node</strong></li>
 </ul>
-<p>It is the highest level diagram in <em>UML</em>.</p>
+<p>It is the <strong>highest level</strong> diagram in <strong><em>UML</em></strong>.</p>
 <p><img alt="Deployment diagram" src="../img/deployment_diagram.jpg" /></p>
-<p>The use of visual stereotypes allows a particularized representation of the deployment diagram.</p>
+<p>The use of visual <strong>stereotypes</strong> allows a <strong>particularized representation</strong> of the deployment diagram.</p>
 <p><img alt="Itranet" src="../img/intranet_deployment_diagram.jpg" /></p></div>
         
         
