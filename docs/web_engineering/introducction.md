@@ -18,7 +18,7 @@ People connecting to servers.
 
 - Static webs.
 - Few content producers / Many readers.
-- Rreduced interaction.
+- Preduced interaction.
 
 #### Tecnologies: 
 
