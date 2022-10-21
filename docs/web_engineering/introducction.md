@@ -1,14 +1,8 @@
 # Introducction 
 
-### Protocols 
-
-- **IP**: Internet Protocol. (Internet layer)
-- **TCP**: Transmission Control Protocol. (Transport layer)
-- **HTTP**: Hypertext Transfer Protocol. (Application layer)
-
 ## The _Web_ 
 
-The _Web_ is one service deployed over _Internet_.
+The _Web_ is a service deployed over _Internet_.
 
 - The main file in the _Web_ is the _HTML_.
 - The _Web_ is supported by _HTTP_ over _TCP/IP_.

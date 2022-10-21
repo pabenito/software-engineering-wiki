@@ -20,8 +20,10 @@
 - **DL**: Deep Learning.
 - **DOM**: Document Object Model.
 - **HTML**: HyperText Markup Language.
+- **HTTP**: Hypertext Transfer Protocol. (Application layer)
 - **IFML**: Interaction Flow Modeling Language. (standard)
 - **IoT**: Internet of Things.
+- **IP**: Internet Protocol. (Internet layer)
 - **MDD**: Model Driven Development. (metodology)
 - **OWL**: Web Ontology Language.
 - **PC**: Personal Computer.
@@ -30,6 +32,7 @@
 - **RAM**: Random Access Memory. (computer volatile memory)
 - **SPARQL**: Semantic Protocol And RDF Query Language.
 - **SSD**: Solid State Drive. (fast non-volatile memory)
+- **TCP**: Transmission Control Protocol. (Transport layer)
 - **UML**: Unified Modeling Language. (standard)
 - **Web**: [World Wide Web](#the-web). 
 - **W3C**: [World Wide Web Consortium](#w3c).

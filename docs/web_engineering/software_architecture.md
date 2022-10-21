@@ -16,11 +16,11 @@ Architecture _modeling_ have the following characteristics:
 
 ## Architectural points of view
 
-Architecture can be defined from physical or logical point of view. 
+Architecture can be defined from **physical or logical** point of view. 
 
 ### Physical architecture
 
-Physical elements for software execution:
+**Physical elements** for software execution:
 
 - Hardware
 - Third party software
@@ -28,7 +28,7 @@ Physical elements for software execution:
 
 ### Logical architecture
 
-Software components. Group the different functionalities.
+**Software components**. Group the different functionalities.
 
 - It deals with the **public part** of the elements of the system.
 - **Describes** the software **components**, the **relationships** between them and their **properties**
@@ -36,22 +36,22 @@ Software components. Group the different functionalities.
 
 ### Mixed architecture 
 
-It is also usual to represents both together: physical as tiers, logical as layers.
+It is also usual to represents both together: **physical as tiers**, **logical as layers**.
 
 ![Mixed architecture](img/mixed_architecture.jpg)
 
 ## Architecture layers 
 
-Each architecture layer, has a specific purpose. 
+Each architecture layer, has a **specific purpose**. 
 
 ### Presentation layer
 
-- Displays the user interface
-- Facilitates user interaction with the system
-- Server-side contains a component that generates and serves the _HTML_.
-- Client-side contains a browser that displays _HTML_ and executes scripts.
+- Displays the **user interface**
+- Facilitates user **interaction** with the system
+- **Server-side** contains a component that **generates** and serves the **_HTML_**.
+- **Client-side** contains a browser that **displays _HTML_** and executes scripts.
 - Computational load:
-    - Traditionally the presentation logic was server-side.
+    - Traditionally the presentation **logic was server-side**.
     - Technologies such as _AJAX_ allow logic to be executed on the client-side.
 
 ### Business layer
@@ -114,7 +114,7 @@ They describe a general solution to a design problem that is frequently encounte
 
 More about architecture patterns [here](https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013).
 
-## Architectural modeling in UML
+## Architectural modeling in _UML_
 
 ### Components diagram
 
