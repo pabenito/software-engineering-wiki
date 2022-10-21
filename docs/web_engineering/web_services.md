@@ -36,15 +36,17 @@ Web services follows Client-Server pattern.
 They are two main approaches:
 
 - **_SOAP_ service**: Offers an **arbitrary** set of operations. (Complex)
-- **_RESTful_ service**: Manipulate representations of web resources using a **uniform** set of **stateless** operations. (Simple)
+- **_REST_ service**: Manipulate representations of web resources using a **uniform** set of **stateless** operations. (Simple)
 
-## _SOAP_
+## _SOAP_ vs. _REST_
+
+### _SOAP_
 
 _SOAP_ is a protocol for **information exchange** in a **decentralized and distributed environment**. 
 
 Defines a **message** architecture and its **formats** in **_XML_**. The language is _WSDL_. 
 
-### _WSDL_  
+#### _WSDL_  
 
 - **_XML_ format for interface operations**, parameters, messages and response type.
 - **Contract** between the server and the client: **what should** the request and response **messages contain**. 
@@ -53,15 +55,15 @@ Defines a **message** architecture and its **formats** in **_XML_**. The languag
 
 _WSDL_ examples [here](https://www.w3schools.com/XML/xml_wsdl.asp). 
 
-## _RESTful_ 
+### _REST_ 
 
-_RESTful_ services are **viewed as resources** and may be **invoked with an _URI_**. 
+_REST_ services are **viewed as resources** and may be **invoked with an _URI_**. 
 
 Consider **_HTTP_** not only as a transport protocol, but also **as an _API_**.
 
-### Resource 
+#### Resource 
 
-_RESTful_ resources **have**:
+_REST_ resources **have**:
 
 - An **_URI_**
 - **Hyperlinks** to them 
