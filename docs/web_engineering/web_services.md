@@ -61,13 +61,4 @@ _REST_ services are **viewed as resources** and may be **invoked with an _URI_**
 
 Consider **_HTTP_** not only as a transport protocol, but also **as an _API_**.
 
-#### Resource 
-
-_REST_ resources **have**:
-
-- An **_URI_**
-- **Hyperlinks** to them 
-- A **state** 
-- **Representation**: txt, html, json, xml, etc. 
-
-Resources are not their representations, i.e. Users stored in a _DB_ (the resource) can be represented in txt, html, json, xml, etc.
+More about _REST_ [here](rest.md).
