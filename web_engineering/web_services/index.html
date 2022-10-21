@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Notes of the degree in software engineering at Universidad de Málaga">
     <meta name="author" content="Pedro Antonio Benito Rojano">
-    
-    <link rel="shortcut icon" href="/software-notes.git/img/favicon.ico">
+    <link rel="canonical" href="https://pabenito.github.io/software-notes.git/web_engineering/web_services/">
+    <link rel="shortcut icon" href="../../img/favicon.ico">
 
     
-    <title>Software Notes</title>
+    <title>Web services - Software Notes</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
     <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-    <link href="/software-notes.git/css/bootstrap-custom.min.css" rel="stylesheet">
-    <link href="/software-notes.git/css/base.min.css" rel="stylesheet">
-    <link href="/software-notes.git/css/cinder.min.css" rel="stylesheet">
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../css/base.min.css" rel="stylesheet">
+    <link href="../../css/cinder.min.css" rel="stylesheet">
 
     
         
@@ -59,7 +59,7 @@
             <!-- Main title -->
 
             
-              <a class="navbar-brand" href="/software-notes.git/.">Software Notes</a>
+              <a class="navbar-brand" href="../..">Software Notes</a>
             
         </div>
 
@@ -70,7 +70,7 @@
                 
                 
                     <li >
-                        <a href="/software-notes.git/.">Home</a>
+                        <a href="../..">Home</a>
                     </li>
                 
                 
@@ -81,7 +81,7 @@
                         
                             
 <li >
-    <a href="/software-notes.git/embedded_systems/introducction/">Introducction</a>
+    <a href="../../embedded_systems/introducction/">Introducction</a>
 </li>
 
                         
@@ -96,7 +96,7 @@
                         
                             
 <li >
-    <a href="/software-notes.git/formal_methods/introducction/">Introduction</a>
+    <a href="../../formal_methods/introducction/">Introduction</a>
 </li>
 
                         
@@ -111,7 +111,7 @@
                         
                             
 <li >
-    <a href="/software-notes.git/mobile_development/introducction/">Introducction</a>
+    <a href="../../mobile_development/introducction/">Introducction</a>
 </li>
 
                         
@@ -126,31 +126,31 @@
                         
                             
 <li >
-    <a href="/software-notes.git/project_management/glossary/">Glossary</a>
+    <a href="../../project_management/glossary/">Glossary</a>
 </li>
 
                         
                             
 <li >
-    <a href="/software-notes.git/project_management/good_practices/">Good practices</a>
+    <a href="../../project_management/good_practices/">Good practices</a>
 </li>
 
                         
                             
 <li >
-    <a href="/software-notes.git/project_management/introducction/">Introducction</a>
+    <a href="../../project_management/introducction/">Introducction</a>
 </li>
 
                         
                             
 <li >
-    <a href="/software-notes.git/project_management/metodology/">Metodology</a>
+    <a href="../../project_management/metodology/">Metodology</a>
 </li>
 
                         
                             
 <li >
-    <a href="/software-notes.git/project_management/projects_vs_operations/">Projects vs operations</a>
+    <a href="../../project_management/projects_vs_operations/">Projects vs operations</a>
 </li>
 
                         
@@ -159,37 +159,37 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Web engineering <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="/software-notes.git/web_engineering/glossary/">Glossary</a>
+    <a href="../glossary/">Glossary</a>
 </li>
 
                         
                             
 <li >
-    <a href="/software-notes.git/web_engineering/introducction/">Introducction</a>
+    <a href="../introducction/">Introducction</a>
 </li>
 
                         
                             
 <li >
-    <a href="/software-notes.git/web_engineering/software_architecture/">Software architecture</a>
+    <a href="../software_architecture/">Software architecture</a>
 </li>
 
                         
                             
 <li >
-    <a href="/software-notes.git/web_engineering/web_modeling/">Web modeling</a>
+    <a href="../web_modeling/">Web modeling</a>
 </li>
 
                         
                             
-<li >
-    <a href="/software-notes.git/web_engineering/web_services/">Web services</a>
+<li class="active">
+    <a href="./">Web services</a>
 </li>
 
                         
@@ -205,6 +205,16 @@
                             <i class="fas fa-search"></i> Search
                         </a>
                     </li>
+                    <li >
+                        <a rel="prev" href="../web_modeling/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li class="disabled">
+                        <a rel="next" >
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
             </ul>
         </div>
     </div>
@@ -212,16 +222,86 @@
 
     <div class="container">
         
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#web-services">Web services</a></li>
+            <li class="second-level"><a href="#what-are-web-services">What are web services?</a></li>
+                
+                <li class="third-level"><a href="#what-they-solve">What they solve?</a></li>
+                <li class="third-level"><a href="#architecture">Architecture</a></li>
+                <li class="third-level"><a href="#views">Views</a></li>
+            <li class="second-level"><a href="#soap">SOAP</a></li>
+                
+                <li class="third-level"><a href="#wsdl">WSDL</a></li>
+            <li class="second-level"><a href="#restful">RESTful</a></li>
+                
+                <li class="third-level"><a href="#resource">Resource</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
 
-    <div class="row-fluid">
-      <div id="main-content" class="span12">
-        <h1 id="404-page-not-found" style="text-align: center">404</h1>
-        <p style="text-align: center"><strong>Page not found</strong></p>
-        <p style="text-align: center"><a href="/software-notes.git/">Home</a></p>
-      </div>
-    </div>
-
-
+<h1 id="web-services">Web services<a class="headerlink" href="#web-services" title="Permanent link">#</a></h1>
+<h2 id="what-are-web-services">What are web services?<a class="headerlink" href="#what-are-web-services" title="Permanent link">#</a></h2>
+<p>A web service is a software <strong>function</strong> that is <strong>hosted at a network addressable location</strong>. <a href="https://www.ibm.com/docs/en/cics-ts/5.2?topic=services-what-is-web-service">IBM</a></p>
+<p><em>Distributed systems</em> rely on web services.</p>
+<h3 id="what-they-solve">What they solve?<a class="headerlink" href="#what-they-solve" title="Permanent link">#</a></h3>
+<p>Web services attempt to <strong>solve</strong> some of the <strong>problems</strong> presented <strong>by other distributed systems development technologies</strong>:</p>
+<ul>
+<li><strong>Complexity</strong>: High learning curve. <ul>
+<li><strong>Solution</strong>: Web services are <strong>easy</strong> to learn. </li>
+</ul>
+</li>
+<li><strong>Interoperability</strong>: Different implementation languages. <ul>
+<li><strong>Solution</strong>: Web services are <strong>platform-independent</strong>.  </li>
+</ul>
+</li>
+<li><strong>Firewall</strong>: Need to configure the non-standard ports to be used.<ul>
+<li><strong>Solution</strong>: Web services use only <strong>standard ports</strong>, because they use <em>HTTP</em> (port 80) or <em>HTTPS</em> (port 443) protocol, which are standard ports. </li>
+</ul>
+</li>
+</ul>
+<h3 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Permanent link">#</a></h3>
+<p>Web services follows Client-Server pattern. </p>
+<p><img alt="Client-Service" src="../img/client-server-model.png" /></p>
+<h3 id="views">Views<a class="headerlink" href="#views" title="Permanent link">#</a></h3>
+<h4 id="conceptual">Conceptual<a class="headerlink" href="#conceptual" title="Permanent link">#</a></h4>
+<ul>
+<li><strong>Software</strong> component accesible <strong>through network</strong>. </li>
+<li>Both clients and services <strong>send</strong> requests and responses&mdash;respectively&mdash;<strong>via messages</strong>.</li>
+<li>They make <strong>no assumptions about the technological characteristics</strong> of the receiver.</li>
+</ul>
+<h4 id="technological">Technological<a class="headerlink" href="#technological" title="Permanent link">#</a></h4>
+<p>They are two main approaches:</p>
+<ul>
+<li><strong><em>SOAP</em> service</strong>: Offers an <strong>arbitrary</strong> set of operations. (Complex)</li>
+<li><strong><em>RESTful</em> service</strong>: Manipulate representations of web resources using a <strong>uniform</strong> set of <strong>stateless</strong> operations. (Simple)</li>
+</ul>
+<h2 id="soap"><em>SOAP</em><a class="headerlink" href="#soap" title="Permanent link">#</a></h2>
+<p><em>SOAP</em> is a protocol for <strong>information exchange</strong> in a <strong>decentralized and distributed environment</strong>. </p>
+<p>Defines a <strong>message</strong> architecture and its <strong>formats</strong> in <strong><em>XML</em></strong>. The language is <em>WSDL</em>. </p>
+<h3 id="wsdl"><em>WSDL</em><a class="headerlink" href="#wsdl" title="Permanent link">#</a></h3>
+<ul>
+<li><strong><em>XML</em> format for interface operations</strong>, parameters, messages and response type.</li>
+<li><strong>Contract</strong> between the server and the client: <strong>what should</strong> the request and response <strong>messages contain</strong>. </li>
+<li>Declare <strong>where</strong> the service is.</li>
+<li>What <strong>protocol</strong> will be used. </li>
+</ul>
+<p><em>WSDL</em> examples <a href="https://www.w3schools.com/XML/xml_wsdl.asp">here</a>. </p>
+<h2 id="restful"><em>RESTful</em><a class="headerlink" href="#restful" title="Permanent link">#</a></h2>
+<p><em>RESTful</em> services are <strong>viewed as resources</strong> and may be <strong>invoked with an <em>URI</em></strong>. </p>
+<p>Consider <strong><em>HTTP</em></strong> not only as a transport protocol, but also <strong>as an <em>API</em></strong>.</p>
+<h3 id="resource">Resource<a class="headerlink" href="#resource" title="Permanent link">#</a></h3>
+<p><em>RESTful</em> resources <strong>have</strong>:</p>
+<ul>
+<li>An <strong><em>URI</em></strong></li>
+<li><strong>Hyperlinks</strong> to them </li>
+<li>A <strong>state</strong> </li>
+<li><strong>Representation</strong>: txt, html, json, xml, etc. </li>
+</ul>
+<p>Resources are not their representations, i.e. Users stored in a <em>DB</em> (the resource) can be represented in txt, html, json, xml, etc.</p></div>
+        
+        
     </div>
 
     
@@ -241,7 +321,7 @@
       </footer>
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="/software-notes.git/js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
 
     
     <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
@@ -249,10 +329,10 @@
     <script>hljs.initHighlightingOnLoad();</script>
     
 
-    <script>var base_url = "/software-notes.git/"</script>
+    <script>var base_url = "../.."</script>
     
-    <script src="/software-notes.git/js/base.js"></script>
-    <script src="/software-notes.git/search/main.js"></script>
+    <script src="../../js/base.js"></script>
+    <script src="../../search/main.js"></script>
 
     <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">

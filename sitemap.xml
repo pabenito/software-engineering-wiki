@@ -65,4 +65,9 @@
          <lastmod>2022-10-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://pabenito.github.io/software-notes.git/web_engineering/web_services/</loc>
+         <lastmod>2022-10-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
