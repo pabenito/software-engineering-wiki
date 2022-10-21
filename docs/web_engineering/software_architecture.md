@@ -2,15 +2,15 @@
 
 ## What is software architecture?
 
-Software architecture refers to the **fundamental structures of a software system** and the discipline of creating such structures and systems. Each structure comprises software elements, relations among them, and properties of both elements and relations.
+Software architecture refers to the **fundamental structures of a software system** and the discipline of **creating such structures and systems**. Each structure comprises software **elements, relations and properties** of both elements and relations.
 
-Software architecture is usually **represented as with a _model_**.
+Software architecture is usually **represented with a _model_**.
 
 ### Architecture _model_
 
-Architecture _modeling_ have the following characteristics:
+Architecture _modeling_ have the following **characteristics**:
 
-- It represents a set of **structures necessary to reason** about such a system.
+- It represents a set of **structures necessary to reason** about a system.
 - It is an **abstraction** that dispenses with details.
 
 
@@ -71,7 +71,7 @@ Each architecture layer, has a **specific purpose**.
 
 ## Architecture scalability
 
-Scalability is how increased data usage and data **growth affects _performance_**.
+Scalability is **how** increased **data usage and growth affects _performance_**.
 
 It is important: 
 
@@ -126,7 +126,7 @@ A software component is a **composition unit** with **all** its **interfaces** a
 
 - **Ports**: **Connection points** between your internal structure and your environment.
 - **Interfaces**: **Services offered and required** to compose it with others.
-- **Realizations**: The classes that **implement** it.
+- **Realizations**: The **classes that implement** it.
 - **Artifacts**: The **physical files** that enable its deployment.
     - Source files
     - Scripts
